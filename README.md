@@ -1,4 +1,4 @@
-# Wordlist
+# Tetsy-Wordlist
 Tetsy Brain Wallets wordlist library
 
 
