@@ -1,7 +1,7 @@
 {
-  "name": "@parity/wordlist",
+  "name": "tetsy-wordlist",
   "version": "1.1.0",
-  "description": "Parity Brain Wallets wordlist library",
+  "description": "Tetsy Brain Wallets wordlist library",
   "main": "index.js",
   "scripts": {
     "test": "mocha index.spec.js",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/paritytech/wordlist.git"
+    "url": "git+https://github.com/openvapory/tetsy-wordlist.git"
   },
   "author": "Parity Technologies <admin@parity.io>",
   "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/paritytech/wordlist/issues"
+    "url": "https://github.com/openvapory/tetsy-wordlist/issues"
   },
-  "homepage": "https://github.com/paritytech/wordlist#readme",
+  "homepage": "https://github.com/openvapory/tetsy-wordlist#readme",
   "devDependencies": {
     "chai": "^3.5.0",
     "expect": "^1.20.2",

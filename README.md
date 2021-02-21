@@ -1,8 +1,8 @@
 # Wordlist
-Parity Brain Wallets wordlist library
+Tetsy Brain Wallets wordlist library
 
 
-[Rust Documentation](https://docs.rs/parity-wordlist/)
+[Rust Documentation](https://docs.rs/tetsy-wordlist/)
 
 
 # RUST
@@ -11,16 +11,16 @@ Parity Brain Wallets wordlist library
 # Cargo.toml
 
 [dependencies]
-parity-wordlist = "1.3"
+tetsy-wordlist = "1.3"
 ```
 
 ```rust
 // main.rs
 
-println!("Words: {}", parity_wordlist::random_phrase(12));
+println!("Words: {}", tetsy_wordlist::random_phrase(12));
 
 let phrase = "violin oblivion cylinder list disarray wobbly fastball showplace oasis patronize septic spearhead";
-println!("Valid: {:?}", parity_wordlist::validate_phrase(phrase, 12));
+println!("Valid: {:?}", tetsy_wordlist::validate_phrase(phrase, 12));
 ```
 
 
@@ -28,14 +28,14 @@ println!("Valid: {:?}", parity_wordlist::validate_phrase(phrase, 12));
 
 
 ```bash
-$ npm i @parity/wordlist --save
+$ npm i tetsy-wordlist --save
 ```
 
 
 ```js
 // main.js
 
-import { randomPhrase, verifyPhrase } from '@parity/wordlist'
+import { randomPhrase, verifyPhrase } from 'tetsy-wordlist'
 
 console.log(randomPhrase(12))
 
